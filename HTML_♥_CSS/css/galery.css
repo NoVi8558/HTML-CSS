@@ -1,0 +1,24 @@
+/* Nastavení obrázků */
+img{
+    max-width: 420px;
+    max-height: 420px;
+    border: solid white;
+    margin: 10 auto;
+    padding: 10 auto;
+}
+
+a{
+    color: orange;
+}
+
+a:hover img,
+a:active img{
+   border-color: #bada55
+}
+
+
+/* nastavení body */
+body{
+    background-color: pink;
+    text-align: center;
+}

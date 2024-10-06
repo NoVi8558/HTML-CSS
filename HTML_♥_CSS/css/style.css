@@ -1,0 +1,65 @@
+/* Nastavení body elementu. */
+        body{
+           color: pink;
+           background: rgb(44, 48, 90);
+           font-family: monospace, sans-serif, serif, Arial, Helvetica;
+
+        }
+/* nastavení article elementu */
+        article{
+           border: 3mm ridge pink;
+           border-radius: 1rem;
+
+           margin: 50px auto;
+           padding: 50px;
+
+           max-width: 420px;
+          
+           text-align: center;
+        }
+/* nastavení nadpisů */
+        h1{
+           font-size: 30px;
+           margin-top: 5px;
+        }
+
+        h2{
+           font-size: 20px;
+           text-transform: uppercase;
+        }
+
+        h3{
+            font-size: 15px;
+            text-transform: uppercase;
+            color: orange;
+        }
+
+        h1,
+        strong,
+        em,
+        a {
+           color: orange
+        }
+
+        a:hover img,
+        a:active img{
+         border-color: #bada55;
+        }
+
+        ol,
+        ul {
+         text-align: left;
+        }
+
+        .Hilighted{
+         color: #bada55;
+        }
+        
+/* nastavení foteru */
+        footer img{
+         width: 400px;
+         border: 4px solid pink;
+         }
+
+         
+
